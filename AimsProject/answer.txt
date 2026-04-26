@@ -1,0 +1,13 @@
+Trong ngôn ngữ lập trình Java, cơ chế truyền tham số được xác định là truyền tham trị 
+(pass by value). Điều này có nghĩa là khi một biến được truyền vào phương thức, Java sẽ tạo 
+ra một bản sao của giá trị đó để sử dụng bên trong phương thức, thay vì truyền trực tiếp 
+biến gốc.
+
+Đối với các kiểu dữ liệu nguyên thủy (primitive types), giá trị được sao chép hoàn toàn 
+nên mọi thay đổi trong phương thức sẽ không ảnh hưởng đến biến ban đầu. Đối với đối tượng 
+(object), giá trị được truyền là bản sao của tham chiếu (reference), vì vậy phương thức có
+thể thay đổi trạng thái bên trong của đối tượng, nhưng không thể thay đổi tham chiếu gốc
+trỏ đến đối tượng đó.
+
+Tóm lại, Java không hỗ trợ cơ chế pass by reference thực sự mà chỉ sử dụng pass by value
+trong mọi trường hợp.
