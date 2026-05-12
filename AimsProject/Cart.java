@@ -1,4 +1,4 @@
-package Lab03.AimsProject
+package Lab03.AimsProject;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
